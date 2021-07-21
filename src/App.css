@@ -71,6 +71,40 @@
   color: #ffffff;
 }
 
+/** information panel **/
+.info--panel{
+margin: 20px 0;
+font-size:20px;
+line-height:1;
+padding:20px;
+}
+
+/**  product section **/
+.product{
+  background: url(./images/product.jpg) no-repeat;
+  background-size:cover;
+  width:auto;
+  height:200px;
+  position:relative;
+  margin:20px 0;
+  text-align: center;
+  padding:20px;
+}
+.product::after{
+  content:"";
+  position: absolute;
+  background: rgba(0,0,255,0.1);
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  visibility:hidden;
+}
+
+.product:hover::after{
+  visibility:visible;
+  cursor:pointer;
+}
 
 @media only screen and (max-width:767px) {
   .section--a{
