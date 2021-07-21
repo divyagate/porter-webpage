@@ -81,7 +81,7 @@ padding:20px;
 
 /**  product section **/
 .product{
-  background: url(./images/product.jpg) no-repeat;
+  background: url(./images/product.jpg) bottom no-repeat;
   background-size:cover;
   width:auto;
   height:200px;
@@ -89,6 +89,7 @@ padding:20px;
   margin:20px 0;
   text-align: center;
   padding:20px;
+  color: #ffffff;
 }
 .product::after{
   content:"";

@@ -19,17 +19,17 @@ function App() {
         </div>
         <div className="product--section">
         <div className="row">
-        <div className="col-4">
+        <div className="col-md-4 col-sm-12">
         <div className="product product--a">
           <h2>Product1</h2>
         </div>
         </div>
-        <div className="col-4">
+        <div className="col-md-4 col-sm-12">
         <div className="product product--b">
         <h2>Product2</h2>
         </div>
         </div>
-        <div className="col-4">
+        <div className="col-md-4 col-sm-12">
         <div className="product product--c">
         <h2>Product3</h2>
         </div>
